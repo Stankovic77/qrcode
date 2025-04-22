@@ -13,11 +13,23 @@
 
 body {
           background-color: hsl(212, 45%, 89%)
+          
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
 }
 
 div {
+  position: absolute;
+  top: 20%;
+  right: 40%;
   background-color: hsl(0, 0%, 100%);
-  width: 350px;
+  width: 250px;
   height: 80;
   border: 12px solid hsl(0, 0%, 100%);
   border-radius: 18px;
@@ -27,6 +39,7 @@ div {
   font-style: normal;
   text-align: center;
   align-items: center;
+
 }
 img {
 border-radius: 3%;
@@ -42,9 +55,11 @@ h2 {
 </style>
 </head>
 <body>
- <div><img src="images/image-qr-code.png" alt="QR code" style="width:350px ">
+  <main role="main">
+ <div><img src="images/image-qr-code.png" alt="QR code" style="width:250px ">
   <h2>Improve your front-end skills by building projects</h2>
   <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level<p>
 </div>
+</main>
 </body>
 </html>
